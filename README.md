@@ -1,6 +1,8 @@
 # ME-NIMAL NVIM
 My personal Neovim configuration
 
+![my neovim screenshot](screenshot.png)
+
 ## Philosophy
 Keep it minimal for optimal memory usage but keep it productive.
 - Prefer Neovim's built-in features
