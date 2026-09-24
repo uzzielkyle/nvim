@@ -19,68 +19,7 @@ vim.pack.add({
 	-- Colorscheme
 	{ src = "https://github.com/AvengeMedia/base46" },
 
-	-- File Finding
+	-- Fuzzy
 	{ src = "https://github.com/echasnovski/mini.pick" },
 })
 
-require("tree-sitter-manager").setup({
-	ensure_installed = {
-		"lua",
-		"python",
-		"javascript",
-		"typescript",
-		"tsx",
-		"json",
-		"html",
-		"css",
-	},
-})
-
-require("nvim-tree").setup({
-	update_focused_file = {
-		enable = true,
-	},
-})
-
-require("conform").setup({
-	formatters_by_ft = {
-		lua = { "stylua" },
-		python = { "ruff_format" },
-		javascript = { "prettierd" },
-		typescript = { "prettierd" },
-		typescriptreact = { "prettierd" },
-	},
-})
-
-require("blink.cmp").setup({
-	keymap = {
-		preset = "default",
-	},
-
-	completion = {
-		documentation = {
-			auto_show = true,
-		},
-	},
-
-	sources = {
-		default = {
-			"lsp",
-			"path",
-			"buffer",
-		},
-	},
-})
-
-local lint = require("lint")
-
-lint.linters_by_ft = {
-	lua = { "luacheck" },
-	python = { "ruff" },
-	javascript = { "eslint" },
-	javascriptreact = { "eslint" },
-	typescript = { "eslint" },
-	typescriptreact = { "eslint" },
-}
-
-require("mini.pick").setup()

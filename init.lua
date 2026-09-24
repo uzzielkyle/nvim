@@ -1,7 +1,4 @@
-require("config.options")
-require("config.keymaps")
-require("config.autocmds")
-require("config.lsp")
-require("plugins.core")
+require("config")
+require("plugins")
 
 vim.cmd.colorscheme("dms")

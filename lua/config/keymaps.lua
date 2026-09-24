@@ -41,20 +41,16 @@ vim.keymap.set("n", "<leader>x", "<cmd>bd<CR>", {
 })
 
 -- PLUGINS:
--- file manager - nvim-tree
+-- file tree - nvim-tree
 vim.keymap.set("n", "<leader>e", function()
 	local api = require("nvim-tree.api")
-
 	if api.tree.is_visible() then
 		vim.cmd("wincmd p")
 	else
 		api.tree.open()
 	end
 end, { desc = "Open file tree / return to buffer" })
-
-vim.keymap.set("n", "<leader>E", "<cmd>NvimTreeClose<CR>", {
-	desc = "Close file tree",
-})
+vim.keymap.set("n", "<leader>E", "<cmd>NvimTreeClose<CR>", { desc = "Close file tree" })
 
 -- formatter - conform
 vim.keymap.set("n", "<leader>f", function()
