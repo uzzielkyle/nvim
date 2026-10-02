@@ -21,5 +21,8 @@ vim.pack.add({
 
 	-- Fuzzy
 	{ src = "https://github.com/echasnovski/mini.pick" },
+
+	-- Cursor
+	{ src = "https://github.com/sphamba/smear-cursor.nvim" },
 })
 
