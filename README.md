@@ -23,6 +23,7 @@ My daily driving machine is a Huawei D15 laptop that features an intel i5 10th g
 - Linting: `nvim-lint`
 - Fuzzy finding: `mini.pick`
 - Colorscheme: `base46`
+- Cursor animation: `smear-cursor`
 - LSP: `vim.lsp`
 
 ## Focused Languages
