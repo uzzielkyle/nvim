@@ -109,3 +109,38 @@ vim.lsp.config("ts_ls", {
 })
 
 vim.lsp.enable("ts_ls")
+
+-- Rust
+vim.lsp.config("rust_analyzer", {
+	cmd = {
+		"rust-analyzer",
+	},
+
+	filetypes = {
+		"rust",
+	},
+
+	root_markers = {
+		"Cargo.toml",
+		"rust-project.json",
+		".git",
+	},
+
+	settings = {
+		["rust-analyzer"] = {
+			cargo = {
+				allFeatures = true,
+			},
+
+			check = {
+				command = "clippy",
+			},
+
+			procMacro = {
+				enable = true,
+			},
+		},
+	},
+})
+
+vim.lsp.enable("rust_analyzer")

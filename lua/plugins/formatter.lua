@@ -5,6 +5,6 @@ require("conform").setup({
 		javascript = { "prettierd" },
 		typescript = { "prettierd" },
 		typescriptreact = { "prettierd" },
+		rust = { "rustfmt" },
 	},
 })
-
