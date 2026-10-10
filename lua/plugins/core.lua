@@ -24,5 +24,11 @@ vim.pack.add({
 
 	-- Cursor
 	{ src = "https://github.com/sphamba/smear-cursor.nvim" },
+
+	-- Statusline
+	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
+
+	-- Git Change Indicator
+	{ src = "https://github.com/lewis6991/gitsigns.nvim" },
 })
 
