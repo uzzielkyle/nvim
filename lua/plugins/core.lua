@@ -30,5 +30,7 @@ vim.pack.add({
 
 	-- Git Change Indicator
 	{ src = "https://github.com/lewis6991/gitsigns.nvim" },
-})
 
+	-- Teleportation
+	{ src = "https://github.com/folke/flash.nvim" },
+})
