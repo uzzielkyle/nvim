@@ -29,9 +29,13 @@ require("conform").setup({
 	formatters_by_ft = {
 		lua = { "stylua" },
 		python = { "ruff_format" },
-		javascript = { "prettierd" },
-		typescript = { "prettierd" },
-		typescriptreact = { "prettierd" },
+		markdown = { "prettier" },
+		json = { "biome", "pretter", stop_after_first = true },
+		javascript = { "biome", "prettier", stop_after_first = true },
+		typescript = { "biome", "prettier", stop_after_first = true },
+		typescriptreact = { "biome", "prettier", stop_after_first = true },
+		css = { "biome", "prettier", stop_after_first = true },
+		html = { "biome", "prettier", stop_after_first = true },
 		rust = { "rustfmt" },
 	},
 })
