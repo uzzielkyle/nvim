@@ -24,6 +24,8 @@ My daily driving machine is a Huawei D15 laptop that features an intel i5 10th g
 - Fuzzy finding: `mini.pick`
 - Colorscheme: `base46`
 - Cursor animation: `smear-cursor`
+- Git indicators: `gitsigns`
+- Statusline: `lualine`
 - LSP: `vim.lsp`
 
 ## Focused Languages
