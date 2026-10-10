@@ -10,4 +10,3 @@ require("tree-sitter-manager").setup({
 		"css",
 	},
 })
-

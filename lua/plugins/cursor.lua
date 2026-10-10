@@ -6,5 +6,5 @@ require("smear_cursor").setup({
 
 	-- smooth caret
 	legacy_computing_symbols_support = true,
-	distance_stop_animating_vertical_bar = 0.1
+	distance_stop_animating_vertical_bar = 0.1,
 })

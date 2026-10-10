@@ -9,5 +9,3 @@ lint.linters_by_ft = {
 	typescriptreact = { "eslint" },
 	rust = { "clippy" },
 }
-
-

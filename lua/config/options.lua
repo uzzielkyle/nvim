@@ -5,7 +5,7 @@ vim.g.loaded_ruby_provider = 0
 
 -- Numbers
 vim.opt.number = true
-vim.opt.relativenumber=true
+vim.opt.relativenumber = true
 vim.opt.cursorline = true
 
 -- Copy
