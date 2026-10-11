@@ -30,7 +30,7 @@ require("conform").setup({
 		lua = { "stylua" },
 		python = { "ruff_format" },
 		markdown = { "prettier" },
-		json = { "biome", "pretter", stop_after_first = true },
+		json = { "biome", "prettier", stop_after_first = true },
 		javascript = { "biome", "prettier", stop_after_first = true },
 		typescript = { "biome", "prettier", stop_after_first = true },
 		typescriptreact = { "biome", "prettier", stop_after_first = true },
